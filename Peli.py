@@ -7,9 +7,9 @@ import mysql.connector
 Yhdiste = mysql.connector.connect(
     host="localhost",
     port=3306,
-    database="demo",
+    database="fligh_game",
     user="root",
-    password="7523",
+    password="Metrolippu23",
     autocommit=True,
 )
 # Valitsee 15 satunaista lentokentää suomesta ja lajitelee ne aakkos-järjestyksessä
@@ -55,3 +55,12 @@ def pelin_luonti(start_alcohol, lento_voima, Sijainti, nimi, kentat):
 
 # Antaa aloitusmäärät eli. Pelaaja aloitaa pelin 1000L alkoholia, pelaaja pystyy liikumaan 2000? pelaaja aloittaa Helsinki-Vantaan lentokentällä. Pelaajan nimi on pakosta Darrapukki vaikka hän ei sitä itse halua.
 pelin_luonti(1000, 2000, "EFHK", "Darrapukki")
+
+currentgoal = 0
+numofgoals = 10  # 10 leiman approt?
+pelaajalista = []
+listofgoals = []
+
+def luo_pelaaja():
+    print("jotai hienoo tähä")
+    pelaajalista.append(Pelaaja)
