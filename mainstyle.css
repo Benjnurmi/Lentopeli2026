@@ -3,7 +3,7 @@ body {
 	font-size: 70.0%;
 	background-image: url('/media/bannerold.png');
 	background-repeat: no-repeat;
-	background-color: #09366C;
+	background-color: #0D1B2A;
 	background-attachment: fixed;
 	background-position: 0px 0px;
 	background-size: cover;
@@ -25,9 +25,9 @@ article {
 }
 
 article h1 {
-	background-color: #AACCEE;
+	background-color: rgba(255, 228, 181, 0.9);
 	margin: auto;
-	color: #062656;
+	color: #111111;
 	padding-top: 0.3em;
 	text-align: left;
 	font-size: 250%;
@@ -37,7 +37,10 @@ article h1 {
 	letter-spacing: 5px;
 }
 
-
+article h2 {
+    font-family: Inter;
+    color: #111111;
+}
 
 /**/
 ul {
@@ -45,7 +48,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #79031D;
   text-align: center;
   font-family: BankGothic Md BT, Regular, sans-serif;
   text-transform: uppercase;
@@ -58,7 +61,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: #111111;
   text-align: center;
   font-size: 18px;
   padding: 14px 16px;
@@ -67,7 +70,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #ffe4b5e6;
 }
 
 
@@ -101,4 +104,29 @@ img{
 	border: 1px black solid;
 	border-radius: 8px;
 	padding: 8px;
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.logo img {
+  height: 80px; /* säädä tähän */
+}
+
+nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }

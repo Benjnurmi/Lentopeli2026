@@ -10,7 +10,7 @@ body {
 }
 /**/
 article {
-	text-align: left;
+	text-align: center;
 	font-size: 2.3em;
 	color: #EED;
 	background-image: url(images/shell-bg.jpg);
@@ -41,6 +41,8 @@ article h2 {
     font-family: Inter;
     color: #111111;
 }
+
+
 
 /**/
 ul {
@@ -73,22 +75,6 @@ li a:hover {
   background-color: #ffe4b5e6;
 }
 
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
-
-.gallery img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* <--- merkkien pehmee animaatio säätö */
-}
-
-.gallery img:hover {
-  transform: scale(2);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
-}
 
 
 

@@ -1,0 +1,129 @@
+nav {
+    background-color: #ffffff;
+    display: inline;
+	align-items: center;
+    flex-direction: row;
+    justify-content: space-between;	
+	font-size: 2.5em;
+	height: 60px;
+	width: auto;
+	position:absolute;
+    bottom:10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+/*
+nav {
+	position: sticky;
+    background-color: #550e0e;
+    display: flex;
+	align-items: center;
+    flex-direction: row;
+    justify-content: space-between;	
+	font-size: 2.5em;
+	height: 60px;
+	width: auto;
+	margin: auto;
+	float: inline-end;
+}
+*/
+article h1 {
+	background-color: #AACCEE;
+	color: #062656;
+	text-align: center;
+	border: 3px solid rgb(0, 0, 0);
+	font-size: 250%;
+	padding-right: 0.1em;
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
+	font-family: Newborough, Regular, sans-serif;
+	letter-spacing: 5px;
+}
+
+article h2 {
+	background-color: #AACCEE;
+	color: #062656;
+	text-align: center;
+	border: 3px solid rgb(0, 0, 0);
+	font-size: 150%;
+	padding-right: 0.1em;
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	letter-spacing: 5px;
+	margin-top: 200px;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+img{
+    width:100%;
+    height:auto;
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width:25rem;
+    min-width:18rem;
+    margin: 10px;
+    text-align: center;
+	background-color: rgb(156, 156, 156);
+	border: 1px black solid;
+	border-radius: 8px;
+	padding: 8px;
+
+}
+/*
+.flex-container {
+	border: 1px solid rgb(0, 255, 64);
+	height: 200px;
+	display: inline-flexbox;
+}
+
+img {
+	border-radius: 8px 8px 0 0;
+	width: 330px;
+	height: 280px;
+}
+
+.img-container {
+	float: in;
+	width: 50%;  three containers (use 25% for four, and 50% for two, etc) 
+	padding: 5px;  if you want space between the images 
+}
+
+.row {
+	display: flex;
+	overflow: auto;
+}
+*/
