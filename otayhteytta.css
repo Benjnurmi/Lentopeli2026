@@ -1,0 +1,110 @@
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 70.0%;
+	background-image: url('/media/bannerold.png');
+	background-repeat: no-repeat;
+	background-color: #0D1B2A;
+	background-attachment: fixed;
+	background-position: 0px 0px;
+	background-size: cover;
+}
+/**/
+article {
+	text-align: left;
+	font-size: 2.3em;
+	color: #EED;
+	background-image: url(images/shell-bg.jpg);
+	background-attachment: fixed;
+	background-position: 0px 0px;
+	border: 15px solid rgba(0, 0, 0, 0.01);
+    background: #79031D;
+	margin-top: auto;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 26px;
+}
+
+article h1 {
+	background-color: rgba(255, 228, 181, 0.9);
+	margin: auto;
+	color: #111111;
+	padding-top: 0.3em;
+	text-align: left;
+	font-size: 250%;
+	padding-right: 0.1em;
+	padding-bottom: 0.2em;
+	font-family: Newborough, Regular, sans-serif;
+	letter-spacing: 5px;
+}
+
+article h2 {
+    font-family: Inter;
+    color: #111111;
+}
+
+
+
+/**/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #79031D;
+  text-align: center;
+  font-family: BankGothic Md BT, Regular, sans-serif;
+  text-transform: uppercase;
+}
+
+li {
+  float: none;
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: #111111;
+  text-align: center;
+  font-size: 18px;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-inline: 30px;
+}
+
+li a:hover {
+  background-color: #ffe4b5e6;
+}
+
+
+
+
+
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.logo img {
+  height: 80px; /* säädä tähän */
+}
+
+nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
