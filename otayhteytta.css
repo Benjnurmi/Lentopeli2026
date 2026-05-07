@@ -1,16 +1,20 @@
 body {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 70.0%;
-	background-image: url('/media/bannerold.png');
-	background-repeat: no-repeat;
+  background-image:
+    url("../media/snow02.gif"),
+    url("../media/img_1.png");
+  background-size: cover, cover;
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
 	background-color: #0D1B2A;
-	background-attachment: fixed;
 	background-position: 0px 0px;
 	background-size: cover;
 }
 /**/
 article {
-	text-align: left;
+	text-align: center;
 	font-size: 2.3em;
 	color: #EED;
 	background-image: url(images/shell-bg.jpg);
@@ -27,11 +31,11 @@ article {
 article h1 {
 	background-color: rgba(255, 228, 181, 0.9);
 	margin: auto;
-	color: #111111;
+	color: #0D1B2A;
 	padding-top: 0.3em;
 	text-align: left;
-	font-size: 250%;
-	padding-right: 0.1em;
+	font-size: 48px;
+	padding-right: 0.3em;
 	padding-bottom: 0.2em;
 	font-family: Newborough, Regular, sans-serif;
 	letter-spacing: 5px;
@@ -39,7 +43,7 @@ article h1 {
 
 article h2 {
     font-family: Inter;
-    color: #111111;
+    color: #0D1B2A;
 }
 
 
@@ -63,7 +67,7 @@ li {
 
 li a {
   display: block;
-  color: #111111;
+  color: #0D1B2A;
   text-align: center;
   font-size: 18px;
   padding: 14px 16px;
@@ -108,3 +112,38 @@ nav ul {
 
 
 
+.container{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+	align-items: stretch;
+}
+img{
+    width:100%;
+    height:auto;
+}
+.box{
+	text-align: center;
+	font-family: Inter;
+  font-size: 24px;
+  color: black;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width:25rem;
+  min-width:18rem;
+  margin: 10px;
+	background-color: rgba(255, 228, 181, 0.9);
+	box-shadow: 0 6px 10px rgba(0,0,0,0.4);
+	border: 1px black solid;
+	border-radius: 8px;
+	padding: 8px;
+}
+
+header {
+  margin-left: 200px;
+  margin-right: 200px;
+}
